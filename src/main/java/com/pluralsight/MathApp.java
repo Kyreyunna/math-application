@@ -31,10 +31,14 @@ public class MathApp {
 
         //Q4
         // there is a class of 49 that needs to be split into two groups. How many students are in each group?
-        int classSize=49;
+        int numStudents=49;
 
-        System.out.println(classSize);
-                int  classSize=5;
-        System.out.println(classSize);
+        double sizeGroup= Math.sqrt(49);
+
+        System.out.println("The class will be split into two groups of " + sizeGroup);
+
+        numStudents=5;
+        double sizeGroup2= Math.sqrt(5);
+        System.out.println("The class will be split into two groups of " + sizeGroup2);
     }
 }
