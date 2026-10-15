@@ -29,5 +29,12 @@ public class MathApp {
         double areaCircle= (π * (Math.pow(12,2)));
         System.out.println("The area of the circle is " + areaCircle);
 
+        //Q4
+        // there is a class of 49 that needs to be split into two groups. How many students are in each group?
+        int classSize=49;
+
+        System.out.println(classSize);
+                int  classSize=5;
+        System.out.println(classSize);
     }
 }
