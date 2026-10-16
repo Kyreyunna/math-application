@@ -43,21 +43,28 @@ public class MathApp {
         System.out.println("The class will be split into two groups of " + sizeGroup2);
 
         //Q5
-        int x1=5;
-        int x2=10;
-        int y1=85;
-        int y2=50;
+        // (5, 10) and (85, 50)
+        int x1=5 ; int x2=85 ; int y1=10 ; int y2=50 ;
 
-       int x3= -5;
-       int y3= 35 ;
 
-       double y4 = Math.pow(35,2);
-       double x4 = Math.pow(-5,2);
-        System.out.println(y4);
-        System.out.println(x4);
+        //x2 and x1 difference, y1 and y2 difference
+       int x3= 80;
+       int y3= 40 ;
 
-      double y4+x4=
-        double Math.sqrt();
+       // y3 to the power of two and then x3 to the power of two
+       double y4 = Math.pow(40,2);
+       double x4 = Math.pow(80,2);
+       System.out.println(y4);
+       System.out.println(x4);
+
+       // addition of y4 and x4
+      int z= 1600 + 6400;
+        System.out.println(z);
+
+        //the square root of z is the distace which completes the formula
+        double distance= Math.sqrt(8000);
+        System.out.println(distance);
+
 
     }
 }
