@@ -63,7 +63,7 @@ public class MathApp {
 
         //the square root of z is the distace which completes the formula
         double distance= Math.sqrt(8000);
-        System.out.println(distance);
+        System.out.println("The distance is " + distance);
 
 
     }
