@@ -69,7 +69,7 @@ public class MathApp {
         // absolute positive value of temperature
         double temperature= -3.8;
         double temperature2=Math.abs(-3.8);
-        System.out.println("The absolute value is " + temperature2);
+        System.out.println("The positive value is " + temperature2);
 
 
     }
