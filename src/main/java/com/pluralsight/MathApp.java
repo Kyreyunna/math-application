@@ -48,11 +48,16 @@ public class MathApp {
         int y1=85;
         int y2=50;
 
-        x1-x2=;
-                y1-y2=;
+       int x3= -5;
+       int y3= 35 ;
 
-        Math.pow();
-        Math.sqrt();
+       double y4 = Math.pow(35,2);
+       double x4 = Math.pow(-5,2);
+        System.out.println(y4);
+        System.out.println(x4);
+
+      double y4+x4=
+        double Math.sqrt();
 
     }
 }
