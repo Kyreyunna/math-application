@@ -43,6 +43,16 @@ public class MathApp {
         System.out.println("The class will be split into two groups of " + sizeGroup2);
 
         //Q5
+        int x1=5;
+        int x2=10;
+        int y1=85;
+        int y2=50;
+
+        x1-x2=;
+                y1-y2=;
+
+        Math.pow();
+        Math.sqrt();
 
     }
 }
