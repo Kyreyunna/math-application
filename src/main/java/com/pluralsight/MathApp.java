@@ -22,12 +22,13 @@ public class MathApp {
         System.out.println("The lowest price is " + lowestPrice);
 
         //Q3
-        int radius = 12;
-        float π =3.14F;
+        float radius = 7.25F;
+        float π =3.14159F;
         //float areaCircle= π * (radius * radius);
         //or
-        double areaCircle= (π * (Math.pow(12,2)));
+        double areaCircle= (π * (Math.pow(7.25,2)));
         System.out.println("The area of the circle is " + areaCircle);
+
 
         //Q4
         // there is a class of 49 that needs to be split into two groups. How many students are in each group?
@@ -40,5 +41,8 @@ public class MathApp {
         numStudents=5;
         double sizeGroup2= Math.sqrt(5);
         System.out.println("The class will be split into two groups of " + sizeGroup2);
+
+        //Q5
+
     }
 }
