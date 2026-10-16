@@ -71,6 +71,11 @@ public class MathApp {
         double temperature2=Math.abs(-3.8);
         System.out.println("The positive value is " + temperature2);
 
+        //Q7
+        // distance between zero and one
+       double randomNumber= Math.random()/Math.nextDown(1.0);
+        System.out.println(randomNumber);
+
 
     }
 }
