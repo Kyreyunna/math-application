@@ -76,6 +76,25 @@ public class MathApp {
        double randomNumber= Math.random()/Math.nextDown(1.0);
         System.out.println(randomNumber);
 
+        //Q8
+        // how many minutes in 24 days
+        // bonus how many milliseconds
+        //int oneDay=24 hours;
+        int twentyFour= 24 * 24;
+        System.out.println(twentyFour);
+        //there are 576 hours in 24 days
+        //each hour is 60 minutes
+        int minTwenty= 60*576;
+        System.out.println("There are " + minTwenty + " " + "minutes in 24 days");
+        //There are 1000 milliseconds in one second
+        // the minutes in 24 days * seconds per minute * milliseconds
+        int milliTwenty = 34560 * 60 * 1000;
+        System.out.println("There are " + milliTwenty + " " + "milliseconds in 24 days");
+
+
+
+
+
 
     }
 }
